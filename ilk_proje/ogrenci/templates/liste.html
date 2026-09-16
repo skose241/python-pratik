@@ -1,0 +1,10 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <h1>Öğrenci Listesi</h1>
+
+        {% for ogrenci in ogrenciler %}
+            <p>{{ ogrenci.ad }} - {{ ogrenci.puan }}</p>
+        {% endfor %}
+    </body>
+</html>

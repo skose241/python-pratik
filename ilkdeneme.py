@@ -91,3 +91,4 @@ with open("ogrenciler.txt","r",encoding="utf-8") as dosya:
 
         print("Ad:",kelime[0])
         print("Ortalama:",kelime[1])
+        
